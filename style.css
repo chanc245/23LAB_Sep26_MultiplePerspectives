@@ -126,7 +126,9 @@ a {
   background-color: #f3f3f3;
 }
 
-.bg-pattern-index {
+
+/* Background Pattern */
+.bg-pattern {
   position: absolute;
   z-index: 0;
   left: 0px;
@@ -134,10 +136,68 @@ a {
 
   height: 100vh;
   width: 100vw;
+}
 
+.bg-pattern.index {
+  background-image: radial-gradient(rgba(44, 44, 44, 0.099) 5px, transparent 4px),
+    radial-gradient(rgba(44, 44, 44, 0.099) 3px, #ffffff 2px);
+
+  background-position: 0 0, 40px 40px;
+  background-size: 12vmin 12vmin;
+}
+
+.bg-pattern.page01 {
   background-image: radial-gradient(rgba(44, 44, 44, 0.099) 9%,
       transparent 9%);
-
   background-position: 0% 0%;
-  background-size: 12vmin 12vmin;
+  background-size: 13vmin 13vmin;
+}
+
+.bg-pattern.page02 {
+  opacity: 0.1;
+  background-position: 0% 0%;
+  background: radial-gradient(circle, transparent 20%, #e5e5f7 20%, #e5e5f7 80%, transparent 80%, transparent), radial-gradient(circle, transparent 20%, #e5e5f7 20%, #e5e5f7 80%, transparent 80%, transparent) 97.5px 97.5px, linear-gradient(#7e7e7e 7.800000000000001px, transparent 7.800000000000001px) 0 -3.9000000000000004px, linear-gradient(90deg, #7e7e7e 7.800000000000001px, #e5e5f7 7.800000000000001px) -3.9000000000000004px 0;
+  background-size: 195px 195px, 195px 195px, 97.5px 97.5px, 97.5px 97.5px;
+}
+
+.bg-pattern.page03 {
+  opacity: 0.1;
+  background-image: linear-gradient(30deg, #7e7e7e 12%, transparent 12.5%, transparent 87%, #7e7e7e 87.5%, #7e7e7e), linear-gradient(150deg, #7e7e7e 12%, transparent 12.5%, transparent 87%, #7e7e7e 87.5%, #7e7e7e), linear-gradient(30deg, #7e7e7e 12%, transparent 12.5%, transparent 87%, #7e7e7e 87.5%, #7e7e7e), linear-gradient(150deg, #7e7e7e 12%, transparent 12.5%, transparent 87%, #7e7e7e 87.5%, #7e7e7e), linear-gradient(60deg, #7e7e7e77 25%, transparent 25.5%, transparent 75%, #7e7e7e77 75%, #7e7e7e77), linear-gradient(60deg, #7e7e7e77 25%, transparent 25.5%, transparent 75%, #7e7e7e77 75%, #7e7e7e77);
+
+  /* x1 */
+  /* background-size: 80px 140px;
+  background-position: 0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px; */
+
+  /* x3/2 */
+  background-size: 120px 210px;
+  background-position: 0 0, 0 0, 60px 105px, 60px 105px, 0 0, 60px 105px;
+
+  /* x2 */
+  /* background-size: 160px 280px;
+  background-position: 0 0, 0 0, 80px 140px, 80px 140px, 0 0, 80px 140px;  */
+}
+
+.bg-pattern.page04 {
+  /* opacity: 0.1; */
+  background-position: 0% 0%;
+  opacity: 0.2;
+
+  --s: 200px;
+  /* control the size */
+
+  --_g: conic-gradient(at 25%, #0000 75%, #e3e3e3 0);
+  --_s: /calc(2*var(--s)) calc(2*var(--s));
+  background:
+    radial-gradient(#0000 64%, #bebebe 65%) 0 0/var(--s) var(--s),
+    var(--_g) 0 0 var(--_s),
+    var(--_g) var(--s) var(--s) var(--_s),
+    repeating-conic-gradient(#0000 0 25%, #cdcdcd 0 50%) 0 0 var(--_s),
+    linear-gradient(#c7c7c7b9 50%, #7c7c7ca2 0) 0 0/1% var(--s);
+}
+
+.bg-pattern.page05 {
+  background-color: #e5e5f7;
+  opacity: 0.13;
+  background-image: radial-gradient(circle at center center, #b3b3b3, #e5e5f7), repeating-radial-gradient(circle at center center, #b3b3b3, #b3b3b3, 80px, transparent 160px, transparent 80px);
+  background-blend-mode: multiply;
 }
