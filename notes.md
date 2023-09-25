@@ -1,4 +1,3 @@
-—— —— —— —— ——
 1. Atom (particles) 
     1. Neutrino (Yocto-meter = 10^-24m) 
         1. ALT: Neutrino, conceptual illustration 
@@ -21,7 +20,6 @@
         3. About: https://www.britannica.com/science/atom
         4. Credit: Britannica https://www.britannica.com/science/atom
 
-—— —— —— —— ——
 2. Cells 
     1. DNA (2.5nm)
         1. ALT: Diagram of Deoxyribonucleic-Acid
@@ -39,7 +37,6 @@
         3. About: https://www.urmc.rochester.edu/encyclopedia/content.aspx?ContentID=34&ContentTypeID=160 
         4. Credit: Shutterstock https://www.shutterstock.com/image-illustration/3d-rendering-red-blood-cells-vein-516112096 
 
-—— —— —— —— ——
 3. Item (visible-items) 
     1. A Grain of Salt (1mm)
         1. ALT: A grain of salt 
@@ -57,7 +54,6 @@
         3. About: https://www.britannica.com/topic/human-being
         4. Credit: Getty Images 
 
-—— —— —— —— ——
 4. Large Item 
     1. Statue of Liberty (305ft, 93m)
         1. ALT: Statue of Liberty from far away
@@ -72,7 +68,6 @@
         3. About: https://www.britannica.com/place/Alps 
         4. Credit: Photo by Denis Linine: https://www.pexels.com/photo/mountain-ranges-covered-in-snow-714258/ 
 
-—— —— —— —— ——
 5. Planets 
     1. Earth (7,926 miles, 12,755 km)
         1. ALT: A composite image of Earth captured by instruments aboard NASA's Suomi National Polar-orbiting Partnership satellite, 2012. 
@@ -85,7 +80,6 @@
         3. About: https://www.britannica.com/place/Sun 
         4. Credit: NASA SOHO https://soho.nascom.nasa.gov/gallery/images/eit304prom.html 
 
-—— —— —— —— ——
 6. Galaxy  
     1. Solar System (80 AU, 0.00127 light years)
         1. ALT: The true color of the Solar System, with Dwarf planets, Asteroid belt, Kuiper belt, scattered disk, and detached objects. 
