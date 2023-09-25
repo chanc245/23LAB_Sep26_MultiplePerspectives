@@ -87,6 +87,21 @@ a {
   transition: border ease 250ms;
 }
 
+.info.caption {
+  visibility: hidden;
+
+  text-align: center;
+  position: absolute;
+
+  border: 3px solid rgb(39, 102, 130);
+
+  font-size: 25px;
+}
+
+.info:hover.caption {
+  visibility: visible;
+}
+
 .info:hover {
   border: 3px solid rgb(194, 194, 194);
   background-color: #eaeaea;
